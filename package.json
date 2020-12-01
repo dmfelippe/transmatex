@@ -2,7 +2,13 @@
   "name": "transmatex-web",
   "version": "0.0.0",
   "scripts": {
-    "start": "node app"
+    "ng": "ng",
+    "start": "node server",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "postinstall": "npm run build"
   },
   "private": true,
   "dependencies": {
